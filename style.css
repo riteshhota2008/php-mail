@@ -1,0 +1,63 @@
+body {
+    background-color: #f9f9f9;
+    margin-top: 100px
+}
+
+.box-material {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #333;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+    color: #fff;
+}
+
+.github-corner svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    mix-blend-mode: darken;
+    color: #ffffff;
+    fill: #000000;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave .56s;
+}
+
+@keyframes octocat-wave {
+    0%, 100% {
+        transform: rotate(0);
+    }
+    20%, 60% {
+        transform: rotate(-20deg);
+    }
+    40%, 80% {
+        transform: rotate(10deg);
+    }
+}

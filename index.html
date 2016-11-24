@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easiest & Fastest Contact Us/Feedback Form</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+
+    <style>
+        body, h1, h2, h3, h4, h5, h6, p, a, li, ul, label, input, span, header {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+
+<a href="https://riteshhota2008.github.io/php-mail" title="Fork me on GitHub" class="github-corner">
+    <svg width="80" height="80" viewbox="0 0 250 250"><title>Fork me on GitHub</title>
+        <path d="M0 0h250v250"></path>
+        <path d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2"
+              fill="currentColor" style="transform-origin:130px 110px" class="octo-arm"></path>
+        <path d="M113.2 114.3s3.6 1.6 4.7.6l15-13.7c3-2.4 6-3 8.2-2.7-8-11.2-14-25 3-41 4.7-4.4 10.6-6.4 16.2-6.4.6-1.6 3.6-7.3 11.8-10.7 0 0 4.5 2.7 6.8 16.5 4.3 2.7 8.3 6 12 9.8 3.3 3.5 6.7 8 8.6 12.3 14 3 16.8 8 16.8 8-3.4 8-9.4 11-11.4 11 0 5.8-2.3 11-7.5 15.5-16.4 16-30 9-40 .2 0 3-1 7-5.2 11l-13.3 11c-1 1 .5 5.3.8 5z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+
+<div class="container">
+    <div class="row">
+        <h1 style="text-align: center;margin-top: -80px">Contact Us/Feedback Form</h1>
+        <hr>
+        <div class="col-md-8 col-md-offset-2" style="margin-top: 10px">
+            <div class="box-material">
+                <form method="post" action="mail.php">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Name</label>
+                            <input type="text" class="form-control" name="name" title="Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="email" title="Email" required>
+                        </div>
+                        <div class="col-md-12" style="margin-top: 30px;padding-bottom: 30px">
+                            <label>Message</label>
+                            <textarea class="form-control" cols="5" rows="10" name="message" title="Message"
+                                      required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" name="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="box-material" style="margin-top: 30px">
+        <p>Note: Admin will collect the feedback/message in the form of a mail. Sender will be getting a copy of
+            his/her message or feedback.
+            No database is used. It uses PHP mail () Function to send messages. Easiest and fastest contact us form
+            using php. Post method is used for more secure connection.</p>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="text-muted">Copyright &copy; <a href="http://riteshhota2008.github.io" style="color: gold">Ritesh
+            Hota</a>. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
